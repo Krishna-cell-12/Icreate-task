@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft - Practice Coding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>CodeCraft</h1>
+            <p>Master your coding skills with interactive challenges</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="difficulty-tabs">
+                    <button class="tab easy active" data-difficulty="easy">Easy</button>
+                    <button class="tab medium" data-difficulty="medium">Medium</button>
+                    <button class="tab hard" data-difficulty="hard">Hard</button>
+                </div>
+
+                <div class="problems-list active" data-difficulty="easy">
+                    <div class="problem-item" data-problem="two-sum">
+                        <div class="problem-title">Two Sum</div>
+                        <div class="problem-meta">
+                            <span>Array, Hash Table</span>
+                            <span class="difficulty-badge difficulty-easy">Easy</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="palindrome">
+                        <div class="problem-title">Valid Palindrome</div>
+                        <div class="problem-meta">
+                            <span>String, Two Pointers</span>
+                            <span class="difficulty-badge difficulty-easy">Easy</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="reverse-string">
+                        <div class="problem-title">Reverse String</div>
+                        <div class="problem-meta">
+                            <span>String, Two Pointers</span>
+                            <span class="difficulty-badge difficulty-easy">Easy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="problems-list" data-difficulty="medium">
+                    <div class="problem-item" data-problem="longest-substring">
+                        <div class="problem-title">Longest Substring Without Repeating Characters</div>
+                        <div class="problem-meta">
+                            <span>String, Sliding Window</span>
+                            <span class="difficulty-badge difficulty-medium">Medium</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="group-anagrams">
+                        <div class="problem-title">Group Anagrams</div>
+                        <div class="problem-meta">
+                            <span>Array, String, Hash Table</span>
+                            <span class="difficulty-badge difficulty-medium">Medium</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="product-except-self">
+                        <div class="problem-title">Product of Array Except Self</div>
+                        <div class="problem-meta">
+                            <span>Array, Prefix Sum</span>
+                            <span class="difficulty-badge difficulty-medium">Medium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="problems-list" data-difficulty="hard">
+                    <div class="problem-item" data-problem="median-sorted-arrays">
+                        <div class="problem-title">Median of Two Sorted Arrays</div>
+                        <div class="problem-meta">
+                            <span>Array, Binary Search</span>
+                            <span class="difficulty-badge difficulty-hard">Hard</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="trapping-rain-water">
+                        <div class="problem-title">Trapping Rain Water</div>
+                        <div class="problem-meta">
+                            <span>Array, Two Pointers, Stack</span>
+                            <span class="difficulty-badge difficulty-hard">Hard</span>
+                        </div>
+                    </div>
+                    <div class="problem-item" data-problem="word-ladder">
+                        <div class="problem-title">Word Ladder</div>
+                        <div class="problem-meta">
+                            <span>String, BFS, Hash Table</span>
+                            <span class="difficulty-badge difficulty-hard">Hard</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coding-area">
+                <div class="welcome-message">
+                    <div class="welcome-content">
+                        <h3>Welcome to CodeCraft!</h3>
+                        <p>Select a problem from the sidebar to start coding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
